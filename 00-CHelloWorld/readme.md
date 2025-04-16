@@ -46,7 +46,7 @@ Ejecuté Arch Linux en un container de Docker:
 docker run -it archlinux
 pacman -Syu
 pacman -S clang git
-git clone https://github.com/maegan03/SSL
+git clone https://github.com/marcosegan/SSL
 cd SSL/00-CHelloWorld
 clang hello.c --std=c2y
 ./a.out > output.txt
